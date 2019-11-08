@@ -1,3 +1,93 @@
-body {
-                background: black;
-            }
+.foto{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    padding-bottom: 0%;
+}
+.foto2{
+    display: flex;
+    padding-bottom: 0%;
+    padding: 5%;
+    justify-content: space-around;
+}
+.g{
+    flex-direction: column;
+    align-content: center;
+    height: 200px;
+}
+.eye{
+    width: 35px;
+    height: 37px;
+    background: #fff;
+    position: absolute;
+    top:126px;
+    left: 327px;
+    border-radius: 500px;
+    /* overflow: hidden; */
+}
+.ball{  
+        width: 10px;
+        height: 10px;
+        background: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        border: 15px solid #333;
+    }
+#eye2{
+     /* width: 36px;
+    height: 37px;
+    background: #fff;  */
+    /* position: absolute; */
+    top:135px;
+    left: 374px;
+    /* border-radius: 500px; */
+    /* overflow: hidden;*/
+}
+#ball2{  
+        width: 10px;
+        height: 10px;
+        background: #000;
+        /*position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        border: 15px solid #333; */
+    }
+#eye3{
+    /* width: 36px;
+    height: 37px; */
+    background: white;
+    /* position: absolute; 
+    border-radius: 500px;  */
+    /* overflow: hidden;*/
+    top: 112px;
+    left: 956px;
+}
+#ball3{
+    width: 10px;
+    height: 15px;
+    background: white;
+    /*position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%);
+    border-radius: 50%;*/
+    border: 15px solid #333;
+}
+#eye4{
+    background: white;
+    /* position: absolute; 
+    border-radius: 500px;  */
+    /* overflow: hidden;*/
+    top: 115px;
+    left: 1020px;
+}
+#ball3{
+    width: 10px;
+    height: 15px;
+    background: black;
+}
